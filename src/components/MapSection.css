@@ -1,0 +1,16 @@
+.map-section {
+  padding: 3rem 2rem;
+  background-color: var(--section-bg);
+}
+
+.map-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,29 @@
+{
+  "name": "kijo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://Arn-old1.github.io/kijo",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
+    "@fortawesome/react-fontawesome": "^0.2.3",
+    "leaflet": "^1.9.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^5.0.0",
+    "swiper": "^11.2.10"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^7.0.4"
+  }
+}
