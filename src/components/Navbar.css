@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
-  background-color: var(--bg);
+  background-color:orange;
   color: var(--text);
   position: sticky;
   top: 0;
@@ -31,7 +31,18 @@
   border-radius: 5px;
 }
 
-/* Dark mode variables */
+:root {
+  --filter-label-color: #222; 
+}
+
+[data-theme="dark"] {
+  --filter-label-color: #fff; 
+}
+
+.filter-label {
+  color: var(--filter-label-color);
+  font-weight: 500;
+}
 :root {
   --bg: #ffffff;
   --text: #121212;

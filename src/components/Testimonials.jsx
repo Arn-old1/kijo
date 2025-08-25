@@ -4,17 +4,17 @@ import "./Testimonials.css";
 const testimonials = [
   {
     name: "Joan K.",
-    image: "/assets/im.jpg",
+    image: "assets/im.jpg",
     message: "Kijo helped me find the perfect beachfront home. Smooth experience!",
   },
   {
     name: "Anash.",
-    image: "/assets/cc.JPG",
+    image: "assets/cc.JPG",
     message: "Great team. Honest, responsive, and they know the African market well.",
   },
   {
     name: "Gift Arnold.",
-    image: "/assets/frontend.jpg",
+    image: "assets/frontend.jpg",
     message: "My investment in Kigali was handled with such care and professionalism.",
   },
 ];

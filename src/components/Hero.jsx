@@ -8,9 +8,6 @@ const Hero = () => {
         <div className="hero-content">
           <h1 className="fade-in">Find Your Dream Space</h1>
           <p className="fade-in">Your next home or workspace is just a scroll away.</p>
-          <a href="#services" className="btn">
-            Explore Services
-          </a>
         </div>
       </div>
     </section>
